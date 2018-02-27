@@ -1,15 +1,6 @@
-meal = 44.50
+choice = input('Enjoying the course? (y or n)')
 
-tax = 6.75 / 100
+while choice != 'y' and choice != 'n':  # Fill in the condition (before the colon)
+  choice = input("Sorry, I didn't catch that. Enter again: ")
 
-tip = 15.0 / 100
-
-
-
-meal  meal + meal * tax
-
-total = meal + meal * tip
-
-
-
-print("%.2f" % total)
+#change
